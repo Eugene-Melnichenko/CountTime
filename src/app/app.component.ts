@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+
   title = 'CountTime';
+  nowDate = new Date();
+
+  constructor(){
+    setTimeout( ()=>{
+      console.log('Hello world')
+    
+    }, 3000)
+  }
+
 }
